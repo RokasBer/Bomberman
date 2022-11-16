@@ -1,2 +1,2 @@
 # Bomberman
-Needs sdl to run
+Needs sdl installed, to run use makefile
