@@ -1,2 +1,3 @@
 # Bomberman
-Needs sdl installed, to run use makefile
+C++ bomberman game
+Needs sdl lib installed, to run use makefile
