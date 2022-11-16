@@ -1,0 +1,796 @@
+# depslib dependency file v1.0
+1590501647 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\bomb.cpp
+	"bomb.h"
+	"TextureManager.h"
+	<iostream>
+	<string>
+	<string.h>
+	"player.h"
+	"game.h"
+	<cmath>
+	<vector>
+	"box.h"
+	"object.h"
+	"game.h"
+	"map.h"
+	"extraLife.h"
+	"extraBomb.h"
+	"extraExplosionDistance.h"
+	<math.h>
+
+1590494259 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\bomb.h
+	<time.h>
+	<string>
+	<string.h>
+	"game.h"
+	"player.h"
+
+1590497994 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\game.h
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	<string>
+	<fstream>
+	<vector>
+	"object.h"
+	"map.h"
+
+1590416259 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\object.h
+	"SDL.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\close_code.h
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\sdl2-2.0.10\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1590420159 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\map.h
+	"game.h"
+	<string>
+	"object.h"
+
+1590501261 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\player.h
+	"game.h"
+	"bomb.h"
+	<string>
+	<iostream>
+	<vector>
+	"movableObject.h"
+	"map.h"
+	"object.h"
+
+1589212565 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\texturemanager.h
+	"game.h"
+
+1590166113 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\box.h
+	"object.h"
+
+1590166113 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\box.cpp
+	"TextureManager.h"
+	"box.h"
+
+1590499736 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\game.cpp
+	"game.h"
+	<iostream>
+	"TextureManager.h"
+	"player.h"
+	"map.h"
+	"bomb.h"
+	<fstream>
+	<vector>
+	<unistd.h>
+	<windows.h>
+	"box.h"
+
+1590499850 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\map.cpp
+	"map.h"
+	"TextureManager.h"
+	<string.h>
+	"wall.h"
+	"box.h"
+	<iostream>
+	"game.h"
+	"extraLife.h"
+	"extraBomb.h"
+	"extraExplosionDistance.h"
+	<iostream>
+	<time.h>
+	<stdlib.h>
+
+1589811161 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\wall.h
+	"object.h"
+
+1590145602 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\object.cpp
+	"object.h"
+	"TextureManager.h"
+
+1590501331 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\player.cpp
+	"player.h"
+	"TextureManager.h"
+	<iostream>
+	<sstream>
+
+1584534630 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\texturemanager.cpp
+	"TextureManager.h"
+
+1589811394 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\wall.cpp
+	"wall.h"
+	"TextureManager.h"
+
+1590501432 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\tests.cpp
+	<SDL.h>
+	<iostream>
+	<string>
+	"game.h"
+	"player.h"
+	<fstream>
+	<assert.h>
+	<windows.h>
+	"map.h"
+	<exception>
+	<sstream>
+	"TextureManager.h"
+
+1590167119 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\movableobject.h
+	"TextureManager.h"
+
+1590169088 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\extralife.h
+	"object.h"
+
+1590244150 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\extrabomb.h
+	"object.h"
+	"TextureManager.h"
+
+1590244432 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\extraexplosiondistance.h
+	"object.h"
+	"TextureManager.h"
+
+1590244181 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\extrabomb.cpp
+	"extraBomb.h"
+
+1590244437 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\extraexplosiondistance.cpp
+	"extraExplosionDistance.h"
+
+1590168911 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman\extralife.cpp
+	"extraLife.h"
+	"TextureManager.h"
+
+1590502954 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\bomb.cpp
+	"bomb.h"
+	"TextureManager.h"
+	<iostream>
+	<string>
+	<string.h>
+	"player.h"
+	"game.h"
+	<cmath>
+	<vector>
+	"box.h"
+	"object.h"
+	"game.h"
+	"map.h"
+	"extraLife.h"
+	"extraBomb.h"
+	"extraExplosionDistance.h"
+	<math.h>
+
+1590494259 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\bomb.h
+	<time.h>
+	<string>
+	<string.h>
+	"game.h"
+	"player.h"
+
+1590497994 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\game.h
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	<string>
+	<fstream>
+	<vector>
+	"object.h"
+	"map.h"
+
+1590416259 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\object.h
+	"SDL.h"
+
+1590420159 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\map.h
+	"game.h"
+	<string>
+	"object.h"
+
+1590501261 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\player.h
+	"game.h"
+	"bomb.h"
+	<string>
+	<iostream>
+	<vector>
+	"movableObject.h"
+	"map.h"
+	"object.h"
+
+1590167119 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\movableobject.h
+	"TextureManager.h"
+
+1589212565 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\texturemanager.h
+	"game.h"
+
+1590166113 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\box.h
+	"object.h"
+
+1590169088 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\extralife.h
+	"object.h"
+
+1590244150 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\extrabomb.h
+	"object.h"
+	"TextureManager.h"
+
+1590244432 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\extraexplosiondistance.h
+	"object.h"
+	"TextureManager.h"
+
+1590166113 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\box.cpp
+	"TextureManager.h"
+	"box.h"
+
+1590244181 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\extrabomb.cpp
+	"extraBomb.h"
+
+1590244437 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\extraexplosiondistance.cpp
+	"extraExplosionDistance.h"
+
+1590168911 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\extralife.cpp
+	"extraLife.h"
+	"TextureManager.h"
+
+1590499736 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\game.cpp
+	"game.h"
+	<iostream>
+	"TextureManager.h"
+	"player.h"
+	"map.h"
+	"bomb.h"
+	<fstream>
+	<vector>
+	<unistd.h>
+	<windows.h>
+	"box.h"
+
+1590503400 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\map.cpp
+	"map.h"
+	"TextureManager.h"
+	<string.h>
+	"wall.h"
+	"box.h"
+	<iostream>
+	"game.h"
+	"extraLife.h"
+	"extraBomb.h"
+	"extraExplosionDistance.h"
+	<iostream>
+	<time.h>
+	<stdlib.h>
+
+1589811161 c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\wall.h
+	"object.h"
+
+1590145602 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\object.cpp
+	"object.h"
+	"TextureManager.h"
+
+1590501331 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\player.cpp
+	"player.h"
+	"TextureManager.h"
+	<iostream>
+	<sstream>
+
+1590501757 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\tests.cpp
+	<SDL.h>
+	<iostream>
+	<string>
+	"game.h"
+	"player.h"
+	<fstream>
+	<assert.h>
+	<windows.h>
+	"map.h"
+	<exception>
+	<sstream>
+	"TextureManager.h"
+
+1584534630 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\texturemanager.cpp
+	"TextureManager.h"
+
+1589811394 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bomberman – kopija\wall.cpp
+	"wall.h"
+	"TextureManager.h"
+
+1590572083 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\bomb.cpp
+	"bomb.h"
+	"TextureManager.h"
+	<iostream>
+	<string>
+	<string.h>
+	"player.h"
+	"game.h"
+	<cmath>
+	<vector>
+	"box.h"
+	"object.h"
+	"game.h"
+	"map.h"
+	"extraLife.h"
+	"extraBomb.h"
+	"extraExplosionDistance.h"
+	<math.h>
+
+1590572078 c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\bomb.h
+	<time.h>
+	<string>
+	<string.h>
+	"game.h"
+	"player.h"
+
+1590571326 c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\game.h
+	"SDL2/SDL.h"
+	"SDL2/SDL_image.h"
+	<string>
+	<fstream>
+	<vector>
+	"object.h"
+	"map.h"
+
+1590416259 c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\object.h
+	"SDL.h"
+
+1590571573 c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\map.h
+	"game.h"
+	<string>
+	"object.h"
+
+1590572707 c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\player.h
+	"game.h"
+	"bomb.h"
+	<string>
+	<iostream>
+	<vector>
+	"movableObject.h"
+	"map.h"
+	"object.h"
+
+1590507903 c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\movableobject.h
+	"TextureManager.h"
+
+1589212565 c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\texturemanager.h
+	"game.h"
+
+1590570492 c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\box.h
+	"object.h"
+
+1590571230 c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\extralife.h
+	"object.h"
+
+1590571230 c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\extrabomb.h
+	"object.h"
+	"TextureManager.h"
+
+1590571230 c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\extraexplosiondistance.h
+	"object.h"
+	"TextureManager.h"
+
+1590570499 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\box.cpp
+	"TextureManager.h"
+	"box.h"
+
+1590571236 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\extrabomb.cpp
+	"extraBomb.h"
+
+1590571244 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\extraexplosiondistance.cpp
+	"extraExplosionDistance.h"
+
+1590571252 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\extralife.cpp
+	"extraLife.h"
+	"TextureManager.h"
+
+1590571343 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\game.cpp
+	"game.h"
+	<iostream>
+	"TextureManager.h"
+	"player.h"
+	"map.h"
+	"bomb.h"
+	<fstream>
+	<vector>
+	<unistd.h>
+	<windows.h>
+	"box.h"
+
+1590571441 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\map.cpp
+	"map.h"
+	"TextureManager.h"
+	<string.h>
+	"wall.h"
+	"box.h"
+	<iostream>
+	"game.h"
+	"extraLife.h"
+	"extraBomb.h"
+	"extraExplosionDistance.h"
+	<iostream>
+	<time.h>
+	<stdlib.h>
+
+1589811161 c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\wall.h
+	"object.h"
+
+1590145602 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\object.cpp
+	"object.h"
+	"TextureManager.h"
+
+1590572707 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\player.cpp
+	"player.h"
+	"TextureManager.h"
+	<iostream>
+	<sstream>
+
+1590503790 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\tests.cpp
+	<SDL.h>
+	<iostream>
+	<string>
+	"game.h"
+	"player.h"
+	<fstream>
+	<assert.h>
+	<windows.h>
+	"map.h"
+	<exception>
+	<sstream>
+	"TextureManager.h"
+	"wall.h"
+
+1584534630 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\texturemanager.cpp
+	"TextureManager.h"
+
+1589811394 source:c:\users\rrkcv\onedrive\stalinis kompiuteris\bombermanas\wall.cpp
+	"wall.h"
+	"TextureManager.h"
+

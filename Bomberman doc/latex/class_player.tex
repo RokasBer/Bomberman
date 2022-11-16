@@ -1,0 +1,146 @@
+\hypertarget{class_player}{}\doxysection{Player Class Reference}
+\label{class_player}\index{Player@{Player}}
+
+
+Class responsible for player\textquotesingle{}s actions.  
+
+
+
+
+{\ttfamily \#include $<$player.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_player_a596715a162e5d56f69c5ede35127c732}\label{class_player_a596715a162e5d56f69c5ede35127c732}} 
+{\bfseries Player} (const char $\ast$texture\+Sheet, int x, int y)
+\item 
+\mbox{\Hypertarget{class_player_adb823bf46f41e1b58bc01140b127c55b}\label{class_player_adb823bf46f41e1b58bc01140b127c55b}} 
+{\bfseries Player} (const char $\ast$texture\+Sheet)
+\item 
+\mbox{\Hypertarget{class_player_a05b60cac1922c5be5c1be16baffa4497}\label{class_player_a05b60cac1922c5be5c1be16baffa4497}} 
+void {\bfseries Update} ()
+\item 
+\mbox{\Hypertarget{class_player_ad141ea844ac82f2447d986d964d1e8a7}\label{class_player_ad141ea844ac82f2447d986d964d1e8a7}} 
+void {\bfseries Render} ()
+\item 
+\mbox{\Hypertarget{class_player_a2e2d23497c223cc5d3bac83aed328202}\label{class_player_a2e2d23497c223cc5d3bac83aed328202}} 
+void {\bfseries plant\+Bomb} ()
+\item 
+\mbox{\Hypertarget{class_player_aca28dc6ebc8153e79a20ac1f8d1358f0}\label{class_player_aca28dc6ebc8153e79a20ac1f8d1358f0}} 
+void \mbox{\hyperlink{class_player_aca28dc6ebc8153e79a20ac1f8d1358f0}{minus\+Active\+Bombs}} ()
+\begin{DoxyCompactList}\small\item\em Decreases active\+Bombs field by one. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a0837501565577e9c8107f173f1a10193}\label{class_player_a0837501565577e9c8107f173f1a10193}} 
+int {\bfseries get\+Xpos} () const
+\item 
+\mbox{\Hypertarget{class_player_aec3aa35def4c7cbf1cc670a1bc9d63a9}\label{class_player_aec3aa35def4c7cbf1cc670a1bc9d63a9}} 
+int {\bfseries get\+Ypos} () const
+\item 
+\mbox{\Hypertarget{class_player_a74530b43066b369be20777e2c224a350}\label{class_player_a74530b43066b369be20777e2c224a350}} 
+void {\bfseries set\+Xpos} (int x)
+\item 
+\mbox{\Hypertarget{class_player_a22cf3c445997762038a91d247f50eb5b}\label{class_player_a22cf3c445997762038a91d247f50eb5b}} 
+void {\bfseries set\+Ypos} (int y)
+\item 
+\mbox{\Hypertarget{class_player_a8fa1427c56741ef702e92d4fbd20083d}\label{class_player_a8fa1427c56741ef702e92d4fbd20083d}} 
+void {\bfseries set\+Max\+Bombs} (int x)
+\item 
+\mbox{\Hypertarget{class_player_ad5020cc903903fb8ba819faac9f7f2cb}\label{class_player_ad5020cc903903fb8ba819faac9f7f2cb}} 
+int {\bfseries get\+Max\+Bombs} () const
+\item 
+\mbox{\Hypertarget{class_player_a9ab2b76079ea120951f63d7d6bfa8d03}\label{class_player_a9ab2b76079ea120951f63d7d6bfa8d03}} 
+int {\bfseries get\+Active\+Bombs} () const
+\item 
+\mbox{\Hypertarget{class_player_a8808edaf5e7deed3e0b7220af288aa72}\label{class_player_a8808edaf5e7deed3e0b7220af288aa72}} 
+void {\bfseries destroy\+Player\+Texture} ()
+\item 
+\mbox{\Hypertarget{class_player_af26b9335d328ead7f0912b2cb38340bb}\label{class_player_af26b9335d328ead7f0912b2cb38340bb}} 
+std\+::string \mbox{\hyperlink{class_player_af26b9335d328ead7f0912b2cb38340bb}{to\+String}} ()
+\begin{DoxyCompactList}\small\item\em Returns string of player\textquotesingle{}s information. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_aada2c84421ee3a6f75dc7293b52836fd}\label{class_player_aada2c84421ee3a6f75dc7293b52836fd}} 
+void {\bfseries set\+Name} (std\+::string n)
+\item 
+\mbox{\Hypertarget{class_player_af1aa472885d589516f483e26e786600e}\label{class_player_af1aa472885d589516f483e26e786600e}} 
+std\+::string {\bfseries get\+Name} ()
+\item 
+\mbox{\Hypertarget{class_player_a4f57214b01fa5d831f20040139ad83ab}\label{class_player_a4f57214b01fa5d831f20040139ad83ab}} 
+\mbox{\hyperlink{class_player}{Player}} \& \mbox{\hyperlink{class_player_a4f57214b01fa5d831f20040139ad83ab}{operator++}} ()
+\begin{DoxyCompactList}\small\item\em Operator expanding players max bombs by 1. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_aa96f3072904ea00f0f6d0becbc54f6a0}\label{class_player_aa96f3072904ea00f0f6d0becbc54f6a0}} 
+\mbox{\hyperlink{class_player}{Player}} \& \mbox{\hyperlink{class_player_aa96f3072904ea00f0f6d0becbc54f6a0}{operator+=}} (int i)
+\begin{DoxyCompactList}\small\item\em Operator expanding players max bombs by i value. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a62da5fc92b5a58341298e5ac3deb5d01}\label{class_player_a62da5fc92b5a58341298e5ac3deb5d01}} 
+void \mbox{\hyperlink{class_player_a62da5fc92b5a58341298e5ac3deb5d01}{increase\+Max\+Bombs}} ()
+\begin{DoxyCompactList}\small\item\em Increases max\+Bombs by 1. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a644fc92a0460d4240588d1104a062167}\label{class_player_a644fc92a0460d4240588d1104a062167}} 
+void \mbox{\hyperlink{class_player_a644fc92a0460d4240588d1104a062167}{set\+To\+Dead}} ()
+\begin{DoxyCompactList}\small\item\em Sets is\+Alive to false. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_aa902085ea6ca717f22bf5556aee005f2}\label{class_player_aa902085ea6ca717f22bf5556aee005f2}} 
+bool \mbox{\hyperlink{class_player_aa902085ea6ca717f22bf5556aee005f2}{get\+Is\+Alive}} ()
+\begin{DoxyCompactList}\small\item\em Returns is\+Alive. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a99396f64aee95d4ab01a26836c3ea4e1}\label{class_player_a99396f64aee95d4ab01a26836c3ea4e1}} 
+void \mbox{\hyperlink{class_player_a99396f64aee95d4ab01a26836c3ea4e1}{set\+To\+Alive}} ()
+\begin{DoxyCompactList}\small\item\em Sets is\+Alive to true. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_player_a3ae02ed125608d48ad7fe7685face93f}\label{class_player_a3ae02ed125608d48ad7fe7685face93f}} 
+bool \mbox{\hyperlink{class_player_a3ae02ed125608d48ad7fe7685face93f}{are\+Active\+Bombs}} ()
+\begin{DoxyCompactList}\small\item\em Field showing if player has planted any bombs. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_player_a6a17c78522a8d641923388c4ed5cb2c2}\label{class_player_a6a17c78522a8d641923388c4ed5cb2c2}} 
+std\+::vector$<$ \mbox{\hyperlink{class_bomb}{Bomb}} $\ast$ $>$ \mbox{\hyperlink{class_player_a6a17c78522a8d641923388c4ed5cb2c2}{bombs}}
+\begin{DoxyCompactList}\small\item\em Vector holding bombs. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_af9c920fabaafdeb7961a645315b521ff}\label{class_player_af9c920fabaafdeb7961a645315b521ff}} 
+std\+::string \mbox{\hyperlink{class_player_af9c920fabaafdeb7961a645315b521ff}{name}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_player}{Player}}\textquotesingle{}s name. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a242f222e29ef5643f4f31ff787689ce2}\label{class_player_a242f222e29ef5643f4f31ff787689ce2}} 
+S\+D\+L\+\_\+\+Texture $\ast$ {\bfseries player\+Texture}
+\item 
+\mbox{\Hypertarget{class_player_ad48cc18c4627253409be97382dd0bfad}\label{class_player_ad48cc18c4627253409be97382dd0bfad}} 
+int \mbox{\hyperlink{class_player_ad48cc18c4627253409be97382dd0bfad}{xpos}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_player}{Player}}\textquotesingle{}s x position. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_aabc5d3a03d507d5efa041b50373cfda6}\label{class_player_aabc5d3a03d507d5efa041b50373cfda6}} 
+int \mbox{\hyperlink{class_player_aabc5d3a03d507d5efa041b50373cfda6}{ypos}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_player}{Player}}\textquotesingle{}s y position. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a6e15e53b078af653ebeecfd3d30a81fe}\label{class_player_a6e15e53b078af653ebeecfd3d30a81fe}} 
+int \mbox{\hyperlink{class_player_a6e15e53b078af653ebeecfd3d30a81fe}{max\+Bombs}}
+\begin{DoxyCompactList}\small\item\em How many bombs can player plant. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a43281a05df3b6daf54dc932e7b29e064}\label{class_player_a43281a05df3b6daf54dc932e7b29e064}} 
+int \mbox{\hyperlink{class_player_a43281a05df3b6daf54dc932e7b29e064}{active\+Bombs}}
+\begin{DoxyCompactList}\small\item\em How many bombs are active. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_aeaa658a654a66ef4f4500e347c82af87}\label{class_player_aeaa658a654a66ef4f4500e347c82af87}} 
+S\+D\+L\+\_\+\+Rect {\bfseries src\+Rect}
+\item 
+\mbox{\Hypertarget{class_player_ae9c95ab700696e93267374823316b4e8}\label{class_player_ae9c95ab700696e93267374823316b4e8}} 
+S\+D\+L\+\_\+\+Rect {\bfseries dest\+Rect}
+\item 
+\mbox{\Hypertarget{class_player_a9c0c126f73f78e21fa3473ba42e1d271}\label{class_player_a9c0c126f73f78e21fa3473ba42e1d271}} 
+bool {\bfseries is\+Alive}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_player_ae8ae17beabca9436181cf5c719a23cba}\label{class_player_ae8ae17beabca9436181cf5c719a23cba}} 
+static std\+::vector$<$ \mbox{\hyperlink{class_player}{Player}} $\ast$ $>$ {\bfseries players}
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_player_a1bbd5bf0091d48b9f2e05cc542d3e2ba}\label{class_player_a1bbd5bf0091d48b9f2e05cc542d3e2ba}} 
+std\+::ostream \& \mbox{\hyperlink{class_player_a1bbd5bf0091d48b9f2e05cc542d3e2ba}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{class_player}{Player}} \&c)
+\begin{DoxyCompactList}\small\item\em Operator printing information about player. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_player_a04de1f3fa56e03cd8be590b301e8e587}\label{class_player_a04de1f3fa56e03cd8be590b301e8e587}} 
+std\+::istream \& \mbox{\hyperlink{class_player_a04de1f3fa56e03cd8be590b301e8e587}{operator$>$$>$}} (std\+::istream \&is, \mbox{\hyperlink{class_player}{Player}} \&c)
+\begin{DoxyCompactList}\small\item\em Operator writing information about player. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class responsible for player\textquotesingle{}s actions. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/rrkcv/\+One\+Drive/\+Stalinis kompiuteris/\+Bomberman/player.\+h\item 
+C\+:/\+Users/rrkcv/\+One\+Drive/\+Stalinis kompiuteris/\+Bomberman/player.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,110 @@
+\hypertarget{class_bomb}{}\doxysection{Bomb Class Reference}
+\label{class_bomb}\index{Bomb@{Bomb}}
+
+
+\mbox{\hyperlink{class_bomb}{Bomb}}\textquotesingle{}s class responsible for bombs explosions, rendering, updating.  
+
+
+
+
+{\ttfamily \#include $<$bomb.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bomb_aaa75a26c061692a76e5d9ff1ac4f164d}\label{class_bomb_aaa75a26c061692a76e5d9ff1ac4f164d}} 
+\mbox{\hyperlink{class_bomb_aaa75a26c061692a76e5d9ff1ac4f164d}{Bomb}} (\mbox{\hyperlink{class_player}{Player}} $\ast$\mbox{\hyperlink{class_bomb_a2325c52ca83d61c5de9b71844fcd8347}{owner}})
+\begin{DoxyCompactList}\small\item\em Constructor containing pointer of bomb\textquotesingle{}s owner. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_a60a9da3ff97cd5a17917bb071d487921}\label{class_bomb_a60a9da3ff97cd5a17917bb071d487921}} 
+void \mbox{\hyperlink{class_bomb_a60a9da3ff97cd5a17917bb071d487921}{update\+Bomb}} ()
+\begin{DoxyCompactList}\small\item\em Updates bomb if its active. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_a5981d36e2bb91afb18493186b90fd8c2}\label{class_bomb_a5981d36e2bb91afb18493186b90fd8c2}} 
+void \mbox{\hyperlink{class_bomb_a5981d36e2bb91afb18493186b90fd8c2}{render\+Bomb}} ()
+\begin{DoxyCompactList}\small\item\em Renders bomb and it\textquotesingle{}s explosion. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_a2d6e4261596a161b3647beea390c9ba9}\label{class_bomb_a2d6e4261596a161b3647beea390c9ba9}} 
+void \mbox{\hyperlink{class_bomb_a2d6e4261596a161b3647beea390c9ba9}{set\+Pos}} (int x, int y)
+\begin{DoxyCompactList}\small\item\em Sets bomb\textquotesingle{}s position. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_aeb41e198ee349bb7f253768e99d6c6f5}\label{class_bomb_aeb41e198ee349bb7f253768e99d6c6f5}} 
+int \mbox{\hyperlink{class_bomb_aeb41e198ee349bb7f253768e99d6c6f5}{get\+Xpos}} ()
+\begin{DoxyCompactList}\small\item\em Returns S\+D\+L\+\_\+\+Rect of bomb\textquotesingle{}s position. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_af0631ced8ef130922dd169262db85aa8}\label{class_bomb_af0631ced8ef130922dd169262db85aa8}} 
+int \mbox{\hyperlink{class_bomb_af0631ced8ef130922dd169262db85aa8}{get\+Ypos}} ()
+\begin{DoxyCompactList}\small\item\em Returns bomb\textquotesingle{}s Y position. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_a4187180effee972e63fac17d90d04817}\label{class_bomb_a4187180effee972e63fac17d90d04817}} 
+void \mbox{\hyperlink{class_bomb_a4187180effee972e63fac17d90d04817}{set\+Start}} ()
+\begin{DoxyCompactList}\small\item\em Sets current time for start. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_aa47f816021baec75532c91e43db88d9d}\label{class_bomb_aa47f816021baec75532c91e43db88d9d}} 
+void \mbox{\hyperlink{class_bomb_aa47f816021baec75532c91e43db88d9d}{set\+Start}} (double t)
+\begin{DoxyCompactList}\small\item\em Sets t value to start. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_a40b71fab62dc1636b8ba2947020fad35}\label{class_bomb_a40b71fab62dc1636b8ba2947020fad35}} 
+clock\+\_\+t \mbox{\hyperlink{class_bomb_a40b71fab62dc1636b8ba2947020fad35}{get\+Start}} ()
+\begin{DoxyCompactList}\small\item\em Returns start time of planted bomb. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_aa0c644ae5192ce05dc06b18374e2e807}\label{class_bomb_aa0c644ae5192ce05dc06b18374e2e807}} 
+void \mbox{\hyperlink{class_bomb_aa0c644ae5192ce05dc06b18374e2e807}{set\+End}} ()
+\begin{DoxyCompactList}\small\item\em Sets current time for end. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_a1fe24244bdc4d4184f68fb20b8736bbf}\label{class_bomb_a1fe24244bdc4d4184f68fb20b8736bbf}} 
+clock\+\_\+t \mbox{\hyperlink{class_bomb_a1fe24244bdc4d4184f68fb20b8736bbf}{get\+End}} ()
+\begin{DoxyCompactList}\small\item\em Returns end time of planted bomb. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_aee9adfe86902e99bb82a903f54dae6e0}\label{class_bomb_aee9adfe86902e99bb82a903f54dae6e0}} 
+void \mbox{\hyperlink{class_bomb_aee9adfe86902e99bb82a903f54dae6e0}{explosion}} ()
+\begin{DoxyCompactList}\small\item\em Explodes bomb. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_a5461258b603439a432943620fa904e52}\label{class_bomb_a5461258b603439a432943620fa904e52}} 
+void \mbox{\hyperlink{class_bomb_a5461258b603439a432943620fa904e52}{set\+Bomb\+Timer}} (double t)
+\begin{DoxyCompactList}\small\item\em Sets bomb\+Timer to t value. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_a7c6c7f4d8fbfaeb58a82c6067f244e7a}\label{class_bomb_a7c6c7f4d8fbfaeb58a82c6067f244e7a}} 
+double \mbox{\hyperlink{class_bomb_a7c6c7f4d8fbfaeb58a82c6067f244e7a}{get\+Bomb\+Timer}} ()
+\begin{DoxyCompactList}\small\item\em returns bomb\+Timer \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_ad96be7ae0cf4fe1db6203dd690feea12}\label{class_bomb_ad96be7ae0cf4fe1db6203dd690feea12}} 
+std\+::string \mbox{\hyperlink{class_bomb_ad96be7ae0cf4fe1db6203dd690feea12}{to\+String}} ()
+\begin{DoxyCompactList}\small\item\em Returns string of bomb\textquotesingle{}s information. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_ad2ca30d20d899e5084cb88e321f94e88}\label{class_bomb_ad2ca30d20d899e5084cb88e321f94e88}} 
+bool \mbox{\hyperlink{class_bomb_ad2ca30d20d899e5084cb88e321f94e88}{get\+Is\+Active}} ()
+\begin{DoxyCompactList}\small\item\em Returns bool if bomb is active. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_a7c904aad2a699bea86a6b1a80a188f10}\label{class_bomb_a7c904aad2a699bea86a6b1a80a188f10}} 
+void \mbox{\hyperlink{class_bomb_a7c904aad2a699bea86a6b1a80a188f10}{set\+Active}} ()
+\begin{DoxyCompactList}\small\item\em Sets bool field is\+Active to true. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_bomb_a2325c52ca83d61c5de9b71844fcd8347}\label{class_bomb_a2325c52ca83d61c5de9b71844fcd8347}} 
+\mbox{\hyperlink{class_player}{Player}} $\ast$ \mbox{\hyperlink{class_bomb_a2325c52ca83d61c5de9b71844fcd8347}{owner}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_bomb}{Bomb}}\textquotesingle{}s owner. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_ab1568f3773d5ac5a8b5c6368cf6087e5}\label{class_bomb_ab1568f3773d5ac5a8b5c6368cf6087e5}} 
+S\+D\+L\+\_\+\+Texture $\ast$ \mbox{\hyperlink{class_bomb_ab1568f3773d5ac5a8b5c6368cf6087e5}{bomb\+Texture}}
+\begin{DoxyCompactList}\small\item\em \mbox{\hyperlink{class_bomb}{Bomb}} texture. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_ab6270d89e0a499cef7579c4efa886b0c}\label{class_bomb_ab6270d89e0a499cef7579c4efa886b0c}} 
+S\+D\+L\+\_\+\+Texture $\ast$ \mbox{\hyperlink{class_bomb_ab6270d89e0a499cef7579c4efa886b0c}{explosion\+Texture}}
+\begin{DoxyCompactList}\small\item\em Explosion texture. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_ae1f6ff2bcfa2b1c9e1a00711e1bc26b0}\label{class_bomb_ae1f6ff2bcfa2b1c9e1a00711e1bc26b0}} 
+S\+D\+L\+\_\+\+Rect \mbox{\hyperlink{class_bomb_ae1f6ff2bcfa2b1c9e1a00711e1bc26b0}{src\+Bomb}}
+\begin{DoxyCompactList}\small\item\em Source of bomb. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_a21c3f5f4d14b6eceaa629e9b08ccd556}\label{class_bomb_a21c3f5f4d14b6eceaa629e9b08ccd556}} 
+S\+D\+L\+\_\+\+Rect \mbox{\hyperlink{class_bomb_a21c3f5f4d14b6eceaa629e9b08ccd556}{dest\+Bomb}}
+\begin{DoxyCompactList}\small\item\em Destination of bomb. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_a7fa82a70fd61de1772533194df690382}\label{class_bomb_a7fa82a70fd61de1772533194df690382}} 
+S\+D\+L\+\_\+\+Rect \mbox{\hyperlink{class_bomb_a7fa82a70fd61de1772533194df690382}{src\+Explosion}}
+\begin{DoxyCompactList}\small\item\em Source of explosion. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_ae6f57196a9861852802d5b0ac1d77ab3}\label{class_bomb_ae6f57196a9861852802d5b0ac1d77ab3}} 
+S\+D\+L\+\_\+\+Rect \mbox{\hyperlink{class_bomb_ae6f57196a9861852802d5b0ac1d77ab3}{dest\+Explosion}}
+\begin{DoxyCompactList}\small\item\em Destination of bomb. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_aa7b04e03c625f415e6cf51254ce0d618}\label{class_bomb_aa7b04e03c625f415e6cf51254ce0d618}} 
+clock\+\_\+t \mbox{\hyperlink{class_bomb_aa7b04e03c625f415e6cf51254ce0d618}{start}}
+\begin{DoxyCompactList}\small\item\em Time when bomb was planted. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_a425ea6bd5774da0cc56f28ef3a539ad4}\label{class_bomb_a425ea6bd5774da0cc56f28ef3a539ad4}} 
+clock\+\_\+t \mbox{\hyperlink{class_bomb_a425ea6bd5774da0cc56f28ef3a539ad4}{end}}
+\begin{DoxyCompactList}\small\item\em Time when bomb will explode. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_abf1d000a23e20f632680a84f4c6936a1}\label{class_bomb_abf1d000a23e20f632680a84f4c6936a1}} 
+double \mbox{\hyperlink{class_bomb_abf1d000a23e20f632680a84f4c6936a1}{bomb\+Timer}}
+\begin{DoxyCompactList}\small\item\em Time between bomb\textquotesingle{}s plant and it\textquotesingle{}s explosion. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_bomb_af5334328d8a71a085fe33811e9a12f7a}\label{class_bomb_af5334328d8a71a085fe33811e9a12f7a}} 
+bool \mbox{\hyperlink{class_bomb_af5334328d8a71a085fe33811e9a12f7a}{is\+Active}}
+\begin{DoxyCompactList}\small\item\em Bool if bomb is active. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_bomb}{Bomb}}\textquotesingle{}s class responsible for bombs explosions, rendering, updating. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/rrkcv/\+One\+Drive/\+Stalinis kompiuteris/\+Bomberman/bomb.\+h\item 
+C\+:/\+Users/rrkcv/\+One\+Drive/\+Stalinis kompiuteris/\+Bomberman/bomb.\+cpp\end{DoxyCompactItemize}

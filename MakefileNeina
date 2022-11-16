@@ -1,0 +1,10 @@
+FILE = main.cpp
+FILE2 = game.cpp
+FILE3 = player.cpp
+FILE4 = map.cpp
+FILE5 = TextureManager.cpp
+FILE6 = bomb.cpp
+FILE_NAME = BomberMan
+
+all: $(FILE)
+	g++ $(FILE) $(FILE2) $(FILE3) $(FILE4) $(FILE5) $(FILE6) -IC:\SDL2-2.0.10\i686-w64-mingw32\include -IC:\SDL2-2.0.10\SDL2_image-2.0.1\include -lC:\SDL2-2.0.10\i686-w64-mingw32\lib -lC:\SDL2-2.0.10\SDL2_image-2.0.1\lib\x86 -w -Wl,-subsystem,windows -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL_image -o $(FILE_NAME)
